@@ -1,0 +1,34 @@
+body {
+  background-color: #ffffff;
+  background-image: url("../photos/watermark.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+  background-size: 50rem;
+  background-position-x: 100%;
+  background-position-y: 100%;
+}
+
+div.container {
+  margin: 13rem 2rem;
+}
+
+span#name {
+  padding-top: 50px;
+  margin: 10rem 15rem;
+  font-size: 4rem;
+}
+
+span#fname {
+  color: grey;
+}
+
+span#lname {
+  color: black;
+  font-weight: 600;
+}
+
+p {
+  color: gold;
+  padding-top: 400px;
+}
