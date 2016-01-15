@@ -1,18 +1,61 @@
 body {
   background-color: #ffffff;
-  /*background-image: url("../photos/noah-color.png");*/
+  background-image: url("../photos/noah-color.png");
+  /*-webkit-filter: grayscale(65%);*/
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right;
   background-size: 50rem;
-  background-position-x: 100%;
+  background-position-x: 88%;
   background-position-y: 100%;
+}
+
+.fixed-action-btn ul {
+    -webkit-filter: grayscale(65%);
+    left: 0px;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0rem;
+    margin: 0;
+    visibility: hidden;
+
+}
+
+img#linkedin {
+    -webkit-filter: grayscale(65%);
+  height: 52px;
+  margin: -8px 0px 0px -8px;
+}
+
+img#github {
+    -webkit-filter: grayscale(65%);
+  height: 46px;
+  margin: -5px 0px 0px -3px;
+}
+
+img#twitter {
+    -webkit-filter: grayscale(65%);
+  height: 60px;
+  margin: -11px 0px 0px -9px;
+}
+
+img#instagram {
+    -webkit-filter: grayscale(65%);
+  margin: -11px 0px 0px -9px;
+  height: 58px;
+}
+
+img#spotify{
+    -webkit-filter: grayscale(65%);
+  height: 41px;
+  margin: -1px 0px 0px -2px;
 }
 
 
 
 div#name-container {
-  margin: 13rem 2rem;
+  margin: 13rem -5rem;
 }
 
 span#name {
@@ -30,12 +73,24 @@ span#lname {
   font-weight: 600;
 }
 
+span.resume-text {
+  margin: -13rem 0rem 0rem 66px;
+  position: absolute;
+  text-decoration: none;
+  color: transparent;
+}
+
+span.resume-text:hover {
+  color: black;
+}
+
+
 img.resume-image {
   width: 100%;
   height: 350px;
   border: 3px solid #8E6F33;
-  filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+  filter: grayscale(65%);
+    -webkit-filter: grayscale(65%);  /* For Webkit browsers */
     filter: gray;  /* For IE 6 - 9 */
     -webkit-transition: all .6s ease;
 }
@@ -45,8 +100,8 @@ img.resume-image:hover{
     /*-webkit-filter: grayscale(100%);  /* For Webkit browsers */
     filter: gray;  /* For IE 6 - 9 */
     -webkit-transition: all .6s ease;*/
-  filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
   filter: none;
   border: 3px solid #8E6F33;
 }
@@ -54,8 +109,8 @@ img.resume-image:hover{
 img.dive-image {
   width: 100%;
   height: 350px;
-  filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+  filter: grayscale(65%);
+    -webkit-filter: grayscale(65%);  /* For Webkit browsers */
     filter: gray;  /* For IE 6 - 9 */
     -webkit-transition: all .6s ease;
     border: 3px solid #8E6F33;
@@ -64,8 +119,8 @@ img.dive-image {
 
 
 img.dive-image:hover{
-  filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
   filter: none;
   /*filter: grayscale(100%);
     -webkit-filter: grayscale(100%);  /* For Webkit browsers */
@@ -76,8 +131,8 @@ img.dive-image:hover{
 img.drive-image {
   width: 100%;
   height: 350px;
-  filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+  filter: grayscale(65%);
+    -webkit-filter: grayscale(65%);  /* For Webkit browsers */
     filter: gray;  /* For IE 6 - 9 */
     -webkit-transition: all .6s ease;
     border: 3px solid #8E6F33;
@@ -85,8 +140,8 @@ img.drive-image {
 
 
 img.drive-image:hover{
-  filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
   filter: none;
   /*filter: grayscale(100%);
     -webkit-filter: grayscale(100%);  /* For Webkit browsers */
@@ -97,16 +152,16 @@ img.drive-image:hover{
 img.nba-app {
   width: 100%;
   height: 350px;
-  filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+  filter: grayscale(65%);
+    -webkit-filter: grayscale(65%);  /* For Webkit browsers */
     filter: gray;  /* For IE 6 - 9 */
     -webkit-transition: all .6s ease;
     border: 3px solid #8E6F33;
 }
 
 img.nba-app:hover{
-  filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
   filter: none;
   /*filter: grayscale(100%);
     -webkit-filter: grayscale(100%);  /* For Webkit browsers */
@@ -117,16 +172,16 @@ img.nba-app:hover{
 img.streatery-app {
   width: 100%;
   height: 350px;
-  filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+  filter: grayscale(65%);
+    -webkit-filter: grayscale(65%);  /* For Webkit browsers */
     filter: gray;  /* For IE 6 - 9 */
     -webkit-transition: all .6s ease;
     border: 3px solid #8E6F33;
 }
 
 img.streatery-app:hover{
-  filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
   filter: none;
   /*filter: grayscale(100%);
     -webkit-filter: grayscale(100%);  /* For Webkit browsers */
@@ -167,9 +222,9 @@ span#text-color {
   /*color: #2196f3*/
 }
 
-img.noah-face:hover {
-  filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
+/*img.noah-face:hover {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
   filter: none;
   /*filter: grayscale(100%);
   -webkit-filter: grayscale(100%);  /* For Webkit browsers */
@@ -182,8 +237,8 @@ img.noah-face {
       margin: -4rem 0rem 0rem 35rem;
       position: fixed;
       z-index: -1;
-      filter: grayscale(100%);
-        -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+      filter: grayscale(65%);
+        -webkit-filter: grayscale(65%);  /* For Webkit browsers */
         filter: gray;  /* For IE 6 - 9 */
         -webkit-transition: all .6s ease;
-}
+}*/
