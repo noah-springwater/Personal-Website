@@ -63,7 +63,8 @@ img#spotify{
 
 
 div#name {
-  margin: 13rem;
+  margin: 230px 0px 0px 0px;
+  font-size: 4rem;
 }
 
 span#name {
@@ -72,12 +73,16 @@ span#name {
 
 span#fname {
   color: black;
-  font-weight: lighter;
+  font-weight: 400;
 }
 
 span#lname {
   color: gray;
   font-weight: 300;
+}
+
+.container {
+    width: 100%;
 }
 
 div.project-one {
@@ -180,20 +185,22 @@ p.steph-text {
 }
 
 p.streatery-text {
-  padding-left: 188px;
-  padding-top: 132px;
-  padding-right: 157px;
-  padding-bottom: 154px;
-  position: absolute;
-  top: 2443px;
-  background: rgba(0,0,0,0.75);
-  visibility: hidden;
-  opacity: 0;
-  font-size: 42px;
-  font-weight: lighter;
-  color: white;
-  -webkit-transition: visibility .6s, opacity .6s;
+width: 592px;
+top: 3303px;
+position: absolute;
+height: 349px;
+padding-left: 173px;
+padding-top: 137px;
+padding-right: 156px;
+background: rgba(0,0,0,0.75);
+visibility: hidden;
+opacity: 0;
+font-size: 42px;
+font-weight: lighter;
+color: white;
+-webkit-transition: visibility .6s, opacity .6s;
 }
+
 
 p.dribbling-text {
   z-index: 1;
@@ -277,13 +284,14 @@ div.article-one:hover p.dribbling-text {
 
 p.lorem {
   padding-bottom: 40rem;
-  padding-top: 11rem;
-  font-style: normal;
-  font-size: 52px;
-  line-height: 88px;
-  padding: 26px;
-  margin: 21rem 0rem 0rem 0rem;
-  font-weight: 400;
+      padding-top: 11rem;
+      font-style: normal;
+      font-size: 42px;
+      line-height: 88px;
+      padding: 26px;
+      margin: 21rem 0rem 0rem 0rem;
+      font-weight: 400;
+      text-shadow: -.5px 0 #ffffff, 0 .5px #ffffff, .5px 0 #ffffff, 0 -.5px #ffffff;
 }
 
 p.projects-title {
